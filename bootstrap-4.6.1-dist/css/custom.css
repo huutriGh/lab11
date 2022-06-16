@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  font-family: Roboto;
+}
+
+.navbar {
+  background-color: orange !important;
+}
+
+.navbar li a {
+  color: white !important;
+}
+.navbar li a:hover {
+  color: black !important;
+}
+
+.dropdown-menu {
+  background-color: orange;
+}
+@media screen and (max-width: 500px) {
+  .dropdown-menu {
+    border: none;
+  }
+}
+
+.dropdown-menu a:hover {
+  background-color: orange;
+  color: black !important;
+}
